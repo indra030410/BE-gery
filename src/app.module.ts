@@ -8,6 +8,6 @@ import { PrismaService } from './prisma.service';
 @Module({
   imports: [EmployeeModule],
   controllers: [AppController],
-  providers: [AppService, EmployeeService, PrismaService],
+  providers: [AppService, PrismaService],
 })
 export class AppModule {}
